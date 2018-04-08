@@ -2,9 +2,8 @@
   "name": "webdriverjs-tests",
   "version": "1.0.0",
   "description": "Using Mocha, Selenium Webdriver and Babel to build a JavaScript test framework",
-  "main": "index.js",
   "scripts": {
-    "test": "_mocha"
+    "test": "./node_modules/.bin/_mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,18 @@
   "bugs": {
     "url": "https://github.com/lw246/webdriverjs-tests/issues"
   },
-  "homepage": "https://github.com/lw246/webdriverjs-tests#readme"
+  "homepage": "https://github.com/lw246/webdriverjs-tests#readme",
+  "dependencies": {
+  "babel-plugin-transform-flow-strip-types": "^6.22.0",
+  "babel-plugin-transform-object-rest-spread": "^6.23.0",
+  "babel-preset-env": "^1.1.10",
+  "babel-register": "^6.16.3",
+  "chai": "^3.5.0",
+  "mocha": "^3.1.2",
+  "selenium-standalone": "^5.7.2",
+  "selenium-webdriver": "^3.1.0"
+},
+"devDependencies": {
+  "babel-eslint": "^7.1.1"
+}
 }
