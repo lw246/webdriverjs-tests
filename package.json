@@ -1,0 +1,19 @@
+{
+  "name": "webdriverjs-tests",
+  "version": "1.0.0",
+  "description": "Using Mocha, Selenium Webdriver and Babel to build a JavaScript test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lw246/webdriverjs-tests.git"
+  },
+  "author": "LeeW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lw246/webdriverjs-tests/issues"
+  },
+  "homepage": "https://github.com/lw246/webdriverjs-tests#readme"
+}
